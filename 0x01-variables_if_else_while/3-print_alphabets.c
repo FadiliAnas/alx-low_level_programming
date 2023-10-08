@@ -14,7 +14,7 @@ int main(void)
 		putchar(a);
 		a++;
 	}
-	while (b < 100)
+	while (b < 99)
         {
                 putchar(b);
                 b++;
