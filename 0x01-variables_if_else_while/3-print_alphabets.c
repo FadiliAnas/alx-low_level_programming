@@ -15,10 +15,10 @@ int main(void)
 		a++;
 	}
 	while (b < 91)
-        {
-                putchar(b);
-                b++;
-        }
+	{
+		putchar(b);
+		b++;
+	}
 	putchar(10);
 	return (0);
 }
