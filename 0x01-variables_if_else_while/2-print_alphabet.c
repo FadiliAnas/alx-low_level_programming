@@ -8,6 +8,6 @@ int main (void)
 		putchar(a);
 		a++;
 	}
-	putchar(32);
+	putchar(10);
 	return (0);
 }
