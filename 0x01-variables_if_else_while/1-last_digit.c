@@ -20,7 +20,7 @@ int main(void)
         {
                 printf("Last digit of %iis %iand is 0\n",n,x);
         }
-	else if (x < 6 && x  ! = 0)
+	else if (x < 6 && ! = 0)
         {
                 printf("Last digit of %iis %iand is less than 6 and not 0\n",n,x);
         }
