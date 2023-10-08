@@ -8,5 +8,6 @@ int main (void)
 		putchar(a);
 		a++;
 	}
+	putchar(32);
 	return (0);
 }
