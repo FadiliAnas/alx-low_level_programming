@@ -1,27 +1,24 @@
 #include "main.h"
-/* more headers goes there */
 /**
- * int _islower(int c); - Entry point
- *
- * Return: Always 0 (Success)
+ * print_sign - prints sign of a number
+ * @n: is a parameter
+ * Return: 1 if n is positive, 0 if n is zero, -1 if n is negative
  */
-/* betty style doc for function main goes there */
 int print_sign(int n)
 {
-	int a;
-
-	if(n > 0)
+	if (n > 0)
 	{
-		a = 1;
+		_putchar('+');
+		return (1);
 	}
-	else if(n == 0)
+	else if (n == 0)
 	{
-		a = 0;
+		_putchar('0');
+		return (0);
 	}
-	else if(n < 0)
+	else
 	{
-		a = -1;
+		_putchar('-');
+		return (-1);
 	}
-	return (a);
-
 }
