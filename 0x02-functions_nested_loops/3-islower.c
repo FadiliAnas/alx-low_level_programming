@@ -1,7 +1,8 @@
 #include "main.h"
 /* more headers goes there */
 /**
- * description: int _islower(int c); - Entry point
+ * @c :Var
+ * description: islower; - Entry point
  *
  * Return: Always 0 (Success)
  */
