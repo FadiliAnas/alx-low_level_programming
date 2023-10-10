@@ -18,6 +18,7 @@ void print_alphabet_x10(void)
                 _putchar(i);
                 i++;
         }
-        _putchar(10);
+		i=97;
+	_putchar(10);
 	}		
 }
