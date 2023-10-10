@@ -9,16 +9,16 @@
 void print_alphabet_x10(void)
 {
 	int u;
-	int i = 97 ;
+	int i = 97;
 
-	for (u = 0; u < 10; u++)
+	for (u = 0 ; u < 10 ; u++)
 	{
 		while (i < 123)
-        {
-                _putchar(i);
-                i++;
-        }
-		i=97;
-	_putchar(10);
+		{
+			_putchar(i);
+			i++;
+		}
+		i = 97;
+		_putchar(10);
 	}		
 }
