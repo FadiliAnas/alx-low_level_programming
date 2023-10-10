@@ -1,20 +1,17 @@
 #include "main.h"
-/* more headers goes there */
 /**
- * @c :Var
- * description: islower; - Entry point
- *
- * Return: Always 0 (Success)
+ * _islower - checks for lowercase
+ * @c: is a parameter
+ * Return: 1 if c is lowercase, 0 otherwise
  */
-/* betty style doc for function main goes there */
 int _islower(int c)
 {
-	if ( c > 96  && c < 122 )
+	if (c > 96  && c < 122)
 	{
-		return(1);
+		return (1);
 	}
 	else
 	{
-		return(0);
+		return (0);
 	}
 }
