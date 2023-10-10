@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 /* betty style doc for function main goes there */
-int main(void)
+void print_alphabet(void)
 {
 	int i = 97;
 
@@ -16,5 +16,4 @@ int main(void)
 		i++;
 	}
 	_putchar(10);
-        return (0);
 }
