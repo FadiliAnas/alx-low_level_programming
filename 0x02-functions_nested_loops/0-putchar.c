@@ -1,6 +1,12 @@
 #include "main.h"
-
-int main (void)
+/* more headers goes there */
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+/* betty style doc for function main goes there */
+int main(void)
 {
 	_putchar(95);
 	_putchar(112);
@@ -10,7 +16,7 @@ int main (void)
 	_putchar(104);
 	_putchar(97);
 	_putchar(114);
-	_putchar('\n');   
+	_putchar('\n');
 	return (0);
 }
 
