@@ -4,12 +4,12 @@
 #include "main.h"
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * positive_or_negative - prints if integer is positive or negative
+ * @i: is a parameter
+ * Return: void
  */
+
 int positive_or_negative(int i)
 {
 	int n;
