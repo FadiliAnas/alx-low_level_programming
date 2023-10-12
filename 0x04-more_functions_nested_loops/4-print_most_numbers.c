@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- *print_numbers - check the code
+ *print_most_numbers -  prints the numbers.
  *
- *Return: Always 0.
+ *Return : Always 0.
  */
-
 void print_most_numbers(void)
 {
 	int i;
