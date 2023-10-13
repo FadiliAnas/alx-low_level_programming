@@ -1,23 +1,24 @@
 #include "main.h"
+
 /**
- *print_line - prints a straight line
- *@n:parameter
- *Return:returns nothing
+ * print_line - prints a straight line
+ * @n: the number of underscores to print
  */
-void print_line( int n)
+void print_line(int n)
 {
 	int i;
 
-	if ( n < 1)
+	if (n < 1)
 	{
-		_putchar(10);
+		_putchar('\n');
 	}
 	else
 	{
-		for (i = 0 ; i > n + 1 ; n++ )
+		for (i = 0; i < n; i++)
 		{
-			_putchar(95);
+			_putchar('_');
 		}
-		_putchar(10);
+		_putchar('\n');
 	}
 }
+
