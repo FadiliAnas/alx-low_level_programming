@@ -2,10 +2,10 @@
 
 void _puts(char *str)
 {
-        while (*s != '\0')
+        while (*str != '\0')
         {
                 i++;
-                s++;
+                str++;
 
         }
 	_putchar(32);
