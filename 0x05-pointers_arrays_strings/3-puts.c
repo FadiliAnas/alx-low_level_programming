@@ -9,5 +9,5 @@ void _puts(char *str)
                 str++;
 
         }
-	_putchar(32);
+	_putchar(10);
 }
