@@ -10,5 +10,5 @@ void _puts(char *str)
                 str++;
 
         }
-	char(32);
+	_puts(32);
 }
