@@ -18,6 +18,7 @@ void print_rev(char *s)
 		i--;
 		s--;
 	}
+	s--;
 	_putchar(10);
 
 
