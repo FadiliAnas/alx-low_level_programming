@@ -4,26 +4,17 @@
 void print_rev(char *s)
 {
 	int i; 
-
-	i=0;
-	while (*s != '\0')
+	int x;
+	
+	i =0;
+	while( s[i] < 0)
 	{
 		i++;
-		s++;
 	}
-	s--;
-	while(i >= 0)
+	x = i;
+	while (x < i) 
 	{
-		if(i != 0)
-		{
-		_putchar(*s);
+		_putchar(s[i]);
 		i--;
-		s--;
-		}
-
 	}
-	_putchar(10);
-	_putchar(10);
-
-
 }
