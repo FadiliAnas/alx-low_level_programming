@@ -1,22 +1,19 @@
-~
-"4-print_rev.c" [readonly] 21L, 201C                          3,23          Alli#include "main.h"
-
+#include "main.h"
 /**
- * rev_string - reverses a string
- * @s: is a patarmeter
- * Return: void
+ *print_rev - check the code
+ * @s: parametre
+ * Return: Always 0.
  */
-void rev_string(char *s)
+void print_rev(char *s)
 {
-	int i = 0, l = 0;
-	char c;
+	int a;
 
-	while (s[i++])
-		l++;
-	for (i = l - 1; i >= l / 2; i--)
+	a = 0;
+	while (s[a] != '\0')
 	{
-		c = s[i];
-		s[i] = s[l - i - 1];
-		s[l - i - 1] = c;
+		a++;
 	}
+	for (a = a - 1; a >= 0; a--)
+		_putchar(s[a]);
+	_putchar('\n');
 }

@@ -1,23 +1,21 @@
 #include "main.h"
 
-
-void rev_string(char *s);
+/**
+ * rev_string - reverses a string
+ * @s: is a patarmeter
+ * Return: void
+ */
+void rev_string(char *s)
 {
-        int i;
-        int j;
-        char *p;
+	int i = 0, l = 0;
+	char c;
 
-        p = s;
-        i = 0;
-        while (*p != '\0')
-        {
-                i++;
-                p++;
-        }
-
-        for (j = i - 1 ; j >= 0 ; j--)
-        {
-                _putchar(s[j]);
-        }
-
+	while (s[i++])
+		l++;
+	for (i = l - 1; i >= l / 2; i--)
+	{
+		c = s[i];
+		s[i] = s[l - i - 1];
+		s[l - i - 1] = c;
+	}
 }
