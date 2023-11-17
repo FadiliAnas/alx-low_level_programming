@@ -1,14 +1,15 @@
-#include <stdio.h>
 #include "lists.h"
 
 /**
- * main - check the code
+ * print_message - prints message before main
  *
- * Return: Always 0.
+ * Return: void
  */
-int main(void)
+void print_message(void) __attribute__((constructor));
+
+void print_message(void)
 {
-    printf("(A tortoise, having pretty good sense of a hare's nature,");
-    printf("challenges one to a race.)\n");
-    return (0);
+	printf("You're beat! and yet, you must allow,\n");
+	printf("I bore my house upon my back!\n");
 }
+
